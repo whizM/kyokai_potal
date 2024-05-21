@@ -1,0 +1,18 @@
+
+<label class="heading heading-secondary">タイトル<span class="neccesary">[ 必須 ]</span></label><br>
+[select* cars class:input_dia "-- 選択してください --" "掲載中の協会・団体について" "メディア等の取材・掲載について" "弊社サービスについて" "協会・団体の掲載に関するお問い合わせ" "その他のお問い合わせ" ]
+
+<label class="heading heading-secondary">メールアドレス<span class="neccesary">[ 必須 ]</span></label><br>
+[text*  your-email class:input_dia placeholder "メールアドレス"]
+
+<label class="heading heading-secondary">お問い合わせしたい協会・団体名<span class="neccesary">[ 必須 ]</span></label><br>
+[text your-organization class:input_dia placeholder "お問い合わせしたい協会・団体名"]
+
+<label class="heading heading-secondary">お問い合わせ内容<span class="neccesary">[ 必須 ]</span></label><br>
+[textarea* your-message class:input_dia2 placeholder "お問い合わせ内容"]
+
+<label class="heading heading-secondary">個人情報の取り扱い<span class="neccesary">[ 必須 ]</span></label><br>
+[textarea privacy-policy class:input_dia2 placeholder "個人情報の取り扱い"]
+
+[checkbox privacy-policy-agreement class:checkbox"個人情報の取り扱いに同意する"]
+submit class:submitbtn "確認"]

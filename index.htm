@@ -1,0 +1,603 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>KYOTO PORTAL</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel='stylesheet' id='classic-theme-styles-css' href='src/css/classic-themes.min.css' type='text/css'
+    media='all'>
+  <link rel='stylesheet' id='style-top-css' href='src/css/style-top.css' type='text/css' media='all'>
+  <link rel='stylesheet' id='slide' href='src/css/slide.css' type='text/css' media='all'>
+  <style>
+    .lazyload[data-src] {
+      display: none !important;
+    }
+  </style>
+  </noscript>
+  <style>
+    .lazyload {
+      background-image: none !important;
+    }
+
+    .lazyload:before {
+      background-image: none !important;
+    }
+  </style>
+</head>
+
+
+<body id="top">
+  <script data-cfasync="false" data-no-defer="1" data-no-minify="1"
+    data-no-optimize="1">if (typeof ewww_webp_supported === "undefined") { var ewww_webp_supported = !1 } if (ewww_webp_supported) { document.body.classList.add("webp-support") }</script>
+  <header>
+    <div class="header-wrapper">
+      <input type="checkbox" class="header-category-input" id="header-category-input"> <label
+        class="header-category-label" for="header-category-input">カテゴリ</label>
+      <div class="header-category">
+        <ul class="header-category-lists">
+          <li class="header-category-list">
+            <a class="header-category-link" href="#"> <img loading="lazy" src="src/img/category/job-change-white.svg"
+                class="header-category-img lazyload" width="20" height="18" alt="協会・団体">
+              <noscript>
+                <img loading="lazy" src="src/img/category/job-change-white.svg" class="header-category-img" width="20"
+                  height="18" alt="協会・団体" data-eio="l">
+              </noscript>
+              <div class="header-category-text">
+                <p>協会・団体</p> <span>全国で活動する協会や団体</span>
+              </div>
+            </a>
+          </li>
+          <li class="header-category-list">
+            <a class="header-category-link" href="#"> <img loading="lazy" src="src/img/category/lessons-white.svg"
+                class="header-category-img lazyload" width="20" height="18" alt="検定・資格試験">
+              <noscript>
+                <img loading="lazy" src="src/img/category/lessons-white.svg" class="header-category-img" width="20"
+                  height="18" alt="検定・資格試験" data-eio="l">
+              </noscript>
+              <div class="header-category-text">
+                <p>検定・資格試験</p> <span>オンラインで受験できる検定・資格試験
+                </span>
+              </div>
+            </a>
+          </li>
+          <li class="header-category-list">
+            <a class="header-category-link" href="#"> <img loading="lazy"
+                src="src/img/category/english-school-white.svg" class="header-category-img lazyload" width="20"
+                height="18" alt="商品・サービス">
+              <noscript>
+                <img loading="lazy" src="src/img/category/english-school-white.svg" class="header-category-img"
+                  width="20" height="18" alt="商品・サービス" data-eio="l">
+              </noscript>
+              <div class="header-category-text">
+                <p>商品・サービス</p> <span>おすすめの商品やサービスの紹介</span>
+              </div>
+            </a>
+          </li>
+          <li class="header-category-list">
+            <a class="header-category-link" href="#"> <img loading="lazy" src="src/img/category/diet-training-white.svg"
+                class="header-category-img lazyload" width="20" height="18" alt="まとめ記事">
+              <noscript>
+                <img loading="lazy" src="src/img/category/diet-training-white.svg" class="header-category-img"
+                  width="20" height="18" alt="まとめ記事" data-eio="l">
+              </noscript>
+              <div class="header-category-text">
+                <p>まとめ記事</p> <span>読みやすいまとめ記事</span>
+              </div>
+            </a>
+          </li>
+          <li class="header-category-list">
+            <a class="header-category-link" href="#"> <img loading="lazy" src="src/img/category/health-white.svg"
+                class="header-category-img lazyload" width="20" height="18" alt="今月のおすすめ">
+              <noscript>
+                <img loading="lazy" src="src/img/category/health-white.svg" class="header-category-img" width="20"
+                  height="18" alt="今月のおすすめ" data-eio="l">
+              </noscript>
+              <div class="header-category-text">
+                <p>今月のおすすめ</p> <span>今月最もホットな情報はこちら</span>
+              </div>
+            </a>
+          </li>
+          <li class="header-category-list">
+            <a class="header-category-link" href="epilation/index.htm">
+              <div class="header-category-text">
+                <p>新着記事はこちら　＞＞＞</p> <span></span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="menu-btn">
+        <img loading="lazy" class="menu-btn-open lazyload" src="src/img/sp-nav-open.svg" width="28" height="25"
+          alt="メニューボタン">
+        <noscript>
+          <img loading="lazy" class="menu-btn-open" src="src/img/sp-nav-open.svg" width="28" height="25" alt="メニューボタン"
+            data-eio="l">
+        </noscript>
+        <img loading="lazy" class="menu-btn-close lazyload" src="src/img/sp-nav-close.svg" width="28" height="30"
+          alt="メニューボタン">
+        <noscript>
+          <img loading="lazy" class="menu-btn-close" src="src/img/sp-nav-close.svg" width="28" height="30" alt="メニューボタン"
+            data-eio="l">
+        </noscript>
+      </div>
+      <nav id="sp-nav">
+        <div class="sp-nav-upper">
+          <ul class="menu-pages">
+            <li> <a href="#"> ライター・専門家一覧 </a> </li>
+            <li> <a href="#"> 運営会社 </a> </li>
+            <li> <a href="#"> 利用規約 </a> </li>
+            <li> <a href="#"> プライバシーポリシー </a> </li>
+            <li> <a href="#"> お問い合わせ </a> </li>
+          </ul>
+        </div>
+        <div class="sp-nav-under">
+          <h2>カテゴリ</h2>
+          <ul>
+            <li class="nav-category">
+              <a class="nav-category-link-sp-nav" href="#">
+                <div class="nav-category-img-sp-nav">
+                  <img loading="lazy" src="src/img/category/job-change.svg" width="21" height="18" alt="協会・団体"
+                    class="lazyload">
+                  <noscript>
+                    <img loading="lazy" src="src/img/category/job-change.svg" width="21" height="18" alt="協会・団体"
+                      data-eio="l">
+                  </noscript>
+                </div>
+                <div class="nav-category-text-sp-nav">
+                  <p>協会・団体</p> <span>全国で活動する協会や団体</span>
+                </div>
+              </a>
+            </li>
+            <li class="nav-category">
+              <a class="nav-category-link-sp-nav" href="#">
+                <div class="nav-category-img-sp-nav">
+                  <img loading="lazy" src="src/img/category/lessons.svg" width="21" height="18" alt="習い事・資格"
+                    class="lazyload">
+                  <noscript>
+                    <img loading="lazy" src="src/img/category/lessons.svg" width="21" height="18" alt="習い事・資格"
+                      data-eio="l">
+                  </noscript>
+                </div>
+                <div class="nav-category-text-sp-nav">
+                  <p>検定・資格試験</p> <span>オンラインで受験できる検定・資格試験
+                </div>
+              </a>
+            </li>
+            <li class="nav-category">
+              <a class="nav-category-link-sp-nav" href="#">
+                <div class="nav-category-img-sp-nav">
+                  <img loading="lazy" src="src/img/category/english-school.svg" width="21" height="18" alt="商品・サービス"
+                    class="lazyload">
+                  <noscript>
+                    <img loading="lazy" src="src/img/category/english-school.svg" width="21" height="18" alt="商品・サービス"
+                      data-eio="l">
+                  </noscript>
+                </div>
+                <div class="nav-category-text-sp-nav">
+                  <p>商品・サービス</p> <span>おすすめの商品やサービスの紹介</span>
+                </div>
+              </a>
+            </li>
+            <li class="nav-category">
+              <a class="nav-category-link-sp-nav" href="#">
+                <div class="nav-category-img-sp-nav">
+                  <img loading="lazy" src="src/img/category/diet-training.svg" width="21" height="18" alt="まとめ記事"
+                    class="lazyload">
+                  <noscript>
+                    <img loading="lazy" src="src/img/category/diet-training.svg" width="21" height="18" alt="まとめ記事"
+                      data-eio="l">
+                  </noscript>
+                </div>
+                <div class="nav-category-text-sp-nav">
+                  <p>まとめ記事</p> <span>読みやすいまとめ記事</span>
+                </div>
+              </a>
+            </li>
+            <li class="nav-category">
+              <a class="nav-category-link-sp-nav" href="#">
+                <div class="nav-category-img-sp-nav">
+                  <img loading="lazy" src="src/img/category/health.svg" width="21" height="18" alt="今月のおすすめ"
+                    class="lazyload">
+                  <noscript>
+                    <img loading="lazy" src="src/img/category/health.svg" width="21" height="18" alt="今月のおすすめ"
+                      data-eio="l">
+                  </noscript>
+                </div>
+                <div class="nav-category-text-sp-nav">
+                  <p>今月のおすすめ</p> <span>今月最もホットな情報はこちら</span>
+                </div>
+              </a>
+            </li>
+            <li class="nav-category">
+              <a class="nav-category-link-sp-nav" href="#">
+                <div class="nav-category-text-sp-nav">
+                  <p>新着記事はこちら　＞＞＞</p> <span></span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="top-page-section">
+    <div class="pc-only key-visual">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img loading="lazy" src="src/img/top-pc.png.webp" class="pc-only lazyload" width="1024" height="516"
+              alt="エラベル">
+          </div>
+          <div class="swiper-slide">
+            <img loading="lazy" src="src/img/top_pc_1.png" class="pc-only lazyload" width="1024" height="516"
+              alt="エラベル">
+          </div>
+          <div class="swiper-slide">
+            <img loading="lazy" src="src/img/top-pc.png.webp" class="pc-only lazyload" width="1024" height="516"
+              alt="エラベル">
+          </div>
+          <div class="swiper-slide">
+            <img loading="lazy" src="src/img/top_pc_1.png" class="pc-only lazyload" width="1024" height="516"
+              alt="エラベル">
+          </div>
+          <div class="swiper-slide">
+            <img loading="lazy" src="arc/img/top-pc.png.webp" class="pc-only lazyload" width="1024" height="516"
+              alt="エラベル">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress">
+          <svg viewBox="0 0 48 48">
+          </svg>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pc-only key-visual-text-pc">
+    今日の<span>「</span>選ぶ<span>」</span>で<br>
+    明日の<span>「</span>したい<span>」</span><br> を叶える
+  </div>
+  <img loading="lazy" class="sp-only ke lazyload" src="src/img/top-sp.png.webp" width="100%" alt="エラベル">
+  <div class="sp-only key-visual-text-sp">
+    今日の<span>「</span>選ぶ<span>」</span>で<br>
+    明日の<span>「</span>したい<span>」</span>を叶える
+  </div>
+  <!--pick up-->
+  <section class="top-page-section">
+    <div class="top-page-section-inner">
+      <div class="top-page-section-header">
+        <h2 class="top-page-section-title">今月のピックアップ</h2>
+        <span>Pick up</span>
+      </div>
+      <div class="article-cards">
+        <div class="article-card-4col">
+          <a href="#">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/first_advert/sec_advert.webp"
+              width="160" height="90" alt="【渋谷ゆり監修】470人に聞いた女性向けプロテインおすすめ15選｜美味しくて安心な厳選ランキング">
+            <div class="article-card-info"> 運動・ダイエット　|　2021.10.11 </div>
+            <p class="article-card-title"> 【渋谷ゆり監修】470人に聞いた女性向けプロテインおすすめ15選｜美味しくて安心な厳選ランキング </p>
+          </a>
+        </div>
+        <div class="article-card-4col">
+          <a href="diet-training/3572/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/first_advert/sec_advert1.webp"
+              width="160" height="90" alt="「自分にOKを出してあげることから始めてみて」 “令和のリアル峰不二子”渋谷ゆりが摂食障害から立ち直れた理由。">
+            <div class="article-card-info"> 運動・ダイエット　|　2021.10.11 </div>
+            <p class="article-card-title"> 「自分にOKを出してあげることから始めてみて」 “令和のリアル峰不二子”渋谷ゆりが摂食障害から立ち直れた理由。 </p>
+          </a>
+        </div>
+        <div class="article-card-4col">
+          <a href="#">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/first_advert/sec_advert.webp"
+              width="160" height="90" alt="【渋谷ゆり監修】470人に聞いた女性向けプロテインおすすめ15選｜美味しくて安心な厳選ランキング">
+            <div class="article-card-info"> 運動・ダイエット　|　2021.10.11 </div>
+            <p class="article-card-title"> 【渋谷ゆり監修】470人に聞いた女性向けプロテインおすすめ15選｜美味しくて安心な厳選ランキング </p>
+          </a>
+        </div>
+        <div class="article-card-4col">
+          <a href="diet-training/3572/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/first_advert/sec_advert1.webp"
+              width="160" height="90" alt="「自分にOKを出してあげることから始めてみて」 “令和のリアル峰不二子”渋谷ゆりが摂食障害から立ち直れた理由。">
+            <div class="article-card-info"> 運動・ダイエット　|　2021.10.11 </div>
+            <p class="article-card-title"> 「自分にOKを出してあげることから始めてみて」 “令和のリアル峰不二子”渋谷ゆりが摂食障害から立ち直れた理由。 </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--インタビュー・アンケート-->
+  <section class="top-page-section news">
+    <div class="top-page-section-inner">
+      <div class="top-page-section-header">
+        <h2 class="top-page-section-title">新着記事</h2>
+        <p>New Article</a>
+      </div>
+      <div class="article-cards">
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_3.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_4.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_3.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_2.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_1.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_4.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_3.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_2.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/news/news_1.webp" width="160"
+              height="90" alt="【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！">
+            <div class="news_title">
+              <div class="article-card-info"> 運動・ダイエット　|　2023.9.15 </div>
+              <p class="article-card-title"> 【500名に調査】みんな何聞いてる？筋トレ中に人気の音楽・動画・ラジオを紹介！ </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="top-page-section-header read_more_add">
+        <a class="top-page-section-anchor read_more" href="#"> 最新の記事をもっと見る </a>
+      </div>
+    </div>
+  </section>
+
+  <!--カテゴリから探す-->
+  <section class="top-page-section">
+    <div class="top-page-section-inner">
+      <div class="top-page-section-header">
+        <h2 class="top-page-section-title">カテゴリから探す</h2>
+      </div>
+      <div id="nav-category-top">
+        <div class="nav-category">
+          <a class="nav-category-link top-nav" href="job-change/index.htm">
+            <div class="nav-category-img"> <img loading="lazy" src="src/img/category/job-change.svg" width="20"
+                height="18" alt="協会・団体" class="lazyload">
+            </div>
+            <div class="nav-category-text">
+              <p>協会・団体</p> <span class="pc-only">全国で活動する協会や団体</span>
+            </div>
+          </a>
+        </div>
+        <div class="nav-category">
+          <a class="nav-category-link top-nav" href="lessons/index.htm">
+            <div class="nav-category-img"> <img loading="lazy" src="src/img/category/lessons.svg" width="20" height="18"
+                alt="検定・資格試験" class="lazyload">
+            </div>
+            <div class="nav-category-text">
+              <p>検定・資格試験</p> <span class="pc-only"> オンラインで受験できる検定・資格試験 </span>
+            </div>
+          </a>
+        </div>
+        <div class="nav-category">
+          <a class="nav-category-link top-nav" href="english-school/index.htm">
+            <div class="nav-category-img"> <img loading="lazy" src="src/img/category/english-school.svg" width="20"
+                height="18" alt="商品・サービス" class="lazyload">
+            </div>
+            <div class="nav-category-text">
+              <p>商品・サービス</p> <span class="pc-only">おすすめの商品やサービスの紹介</span>
+            </div>
+          </a>
+        </div>
+        <div class="nav-category">
+          <a class="nav-category-link top-nav" href="diet-training/index.htm">
+            <div class="nav-category-img">
+              <img loading="lazy" src="src/img/category/diet-training.svg" width="20" height="18" alt="まとめ記事"
+                class="lazyload">
+            </div>
+            <div class="nav-category-text">
+              <p>まとめ記事</p> <span class="pc-only">読みやすいまとめ記事</span>
+            </div>
+          </a>
+        </div>
+        <div class="nav-category">
+          <a class="nav-category-link top-nav" href="diet-training/index.htm">
+            <div class="nav-category-img">
+              <img loading="lazy" src="src/img/category/health.svg" width="20" height="18" alt="今月のおすすめ"
+                class="lazyload">
+            </div>
+            <div class="nav-category-text">
+              <p>今月のおすすめ</p> <span class="pc-only">今月最もホットな情報はこちら</span>
+            </div>
+          </a>
+        </div>
+        <div class="nav-category">
+          <a class="nav-category-link top-nav" href="#">
+            <div class="nav-category-text">
+              <p>新着記事はこちら　＞＞＞</p><span class="pc-only"></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--banner-->
+  <section class="top-page-section">
+    <div class="banner">
+      <img src="src/img/logo_1.png" alt="banner" />
+      <img src="src/img/logo_2.png" alt="banner" />
+    </div>
+    <div class="top-page-section-inner">
+      <p class="des_content">
+        協会ポータルは全国で活動をする協会や団体を紹介し、オンラインで受験して取得できる資格試験をまとめたポータルサイトです。
+        いつでもどこでも興味のある分野の学習や資格試験を受験することができ、キャリアアップや知識の取得を進めることを目的に情報を発信しています。
+        私たちは皆様が新たな資格を取得することで自己肯定感を高めて、一人でも多くの前向きな方を社会に輩出してご活躍していただくことを願っています。
+      </p>
+    </div>
+  </section>
+
+  <!--instagram-->
+  <section class="top-page-section">
+    <div class="instagram_banner">
+      <p class="advert_title">協会ポータル公式インスタグラム</p>
+      <img src="src/img/instagram.png" alt="banner" />
+    </div>
+    <div class="top-page-section-inner">
+      <div class="article-cards">
+        <div class="article-card-3col">
+          <a href="diet-training/18246/index.htm">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/advert/advert_1.png">
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="https://www.instagram.com/kyokaiportal">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/advert/advert_2.png">
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="https://www.instagram.com/kyokaiportal">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/advert/advert_3.png">
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="https://www.instagram.com/kyokaiportal">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/advert/advert_1.png">
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="https://www.instagram.com/kyokaiportal">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/advert/advert_3.png">
+          </a>
+        </div>
+        <div class="article-card-3col">
+          <a href="https://www.instagram.com/kyokaiportal">
+            <img loading="lazy" class="article-card-thumbnail lazyload" src="src/img/advert/advert_2.png">
+          </a>
+        </div>
+      </div>
+      <div class="top-page-section-header read_more_add">
+        <a class="top-page-section-anchor advert_bg  read_more" href="#"> インスタをフォローする </a>
+      </div>
+    </div>
+  </section>
+
+  <!--advert banner-->
+  <section class="top-page-section">
+    <div class="top-page-section-inner">
+      <div class="article-cards">
+        <div class="article-card-2col">
+            <img loading="lazy" class="" src="src/img/advert/advert_1.png">
+        </div>
+        <div class="article-card-2col">
+            <img loading="lazy" class="" src="src/img/advert/advert_2.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="#" class="btn btn-primary rounded-circle back-to-top">
+    <div class="arrow"></div>
+  </a>
+
+  <!--contact-->
+  <footer>
+    <div class="footer_type">
+      <div class="footerLogo">
+        <div class="banner">
+          <img src="src/img/logo_1.png" alt="banner" />
+        </div>
+        <div class="social">
+          <img src="src/img/social/facebook.png" alt="facebook">
+          <img src="src/img/social/twitterx.png" alt="twitterx">
+          <img src="src/img/social/instagram.png" alt="instagram">
+          <img src="src/img/social/line.png" alt="line">
+        </div>
+      </div>
+      <div class="footerLink">
+        <a class="footerLink__anchor" href="#"> お問い合わせ
+        </a>
+        <a class="footerLink__anchor" href="#"> プライバシーポリシー
+        </a>
+        <a class="footerLink__anchor" href="https://www.executiveworkers.jp/"> 運営会社
+        </a>
+      </div>
+    </div>
+    <div class="copyright"> Copyright &copy; KYOTO PORTAL Inc. </div>
+  </footer>
+  <script type='text/javascript' id='eio-lazy-load-js-before'>
+    var eio_lazy_vars = { "exactdn_domain": "", "skip_autoscale": 0, "threshold": 0 };
+  </script>
+  <script type='text/javascript' src='src/js/lazysizes.min.js' id='eio-lazy-load-js'></script>
+  <script type='text/javascript' src='src/js/script_header.js' id='script_header-js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type='text/javascript' src='src/js/style.js' id='script_header-js'></script>
+
+</body>
+
+</html>
+<!--HTML compressed, size saved 11.34%. From 62444 bytes, now 55363 bytes-->

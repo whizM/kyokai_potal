@@ -1,0 +1,1 @@
+!function () { "use strict"; var t = document.getElementById("menu-btn"), e = document.getElementById("sp-nav"); t && e && t.addEventListener("click", (function () { t.classList.toggle("active"), t.classList.contains("active") ? e.classList.add("active") : e.classList.remove("active") })) }();
