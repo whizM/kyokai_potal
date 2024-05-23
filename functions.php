@@ -48,28 +48,3 @@ if ( ! function_exists( 'post_pagination' ) ) :
          ) );
     }
  endif;
-
-
- /**
- * Enqueue block editor assets for custom blog post template
- */
-function enqueue_custom_blog_post_assets() {
-    $post_type = get_post_type();
-    if ( 'post' === $post_type && is_singular() ) {
-        wp_enqueue_script(
-            'custom-blog-post-editor-script',
-            get_template_directory_uri() . '/path/to/custom-blog-post-editor.js',
-            array( 'wp-blocks', 'wp-element', 'wp-editor' ),
-            filemtime( get_template_directory() . '/path/to/custom-blog-post-editor.js' ),
-            true
-        );
-
-        wp_enqueue_style(
-            'custom-blog-post-editor-style',
-            get_template_directory_uri() . '/path/to/custom-blog-post-editor.css',
-            array( 'wp-edit-blocks' ),
-            filemtime( get_template_directory() . '/path/to/custom-blog-post-editor.css' )
-        );
-    }
-}
-add_action( 'enqueue_block_editor_assets', 'enqueue_custom_blog_post_assets' );

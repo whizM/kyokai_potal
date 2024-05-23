@@ -86,7 +86,7 @@
   <!--instagram-->
   <section class="top-page-section">
     <div class="instagram_banner">
-      <div class="advert_title">協会ポータル公式<span class="sp-only"></span>インスタグラム</div>
+      <div class="advert_title">協会ポータル公式<span class="sp-only"><br></span>インスタグラム</div>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/instagram.png" alt="banner" />
     </div>
     <div class="top-page-section-inner">
@@ -155,7 +155,7 @@
         </a>
       </div>
     </div>
-    <div class="copyright"> Copyright &copy; KYOTO PORTAL Inc. </div>
+    <div class="copyright"> Copyright &copy; KYOKAI PORTAL Inc. </div>
   </footer>
   <script type='text/javascript' id='eio-lazy-load-js-before'>
     var eio_lazy_vars = { "exactdn_domain": "", "skip_autoscale": 0, "threshold": 0 };

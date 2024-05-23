@@ -1,4 +1,3 @@
-
 <?php
     get_header();  
 ?>
@@ -6,46 +5,8 @@
 <section class="top-page-section">
     <h1 style="display:none">オンラインで取得できる資格ポータルサイト｜協会ポータル</h1>
     <div class="pc-only key-visual">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-            <?php
-              $args = array(
-                  'post_type' => 'post',
-                  'orderby'    => 'date',
-                  'post_status' => 'public',
-                  'order'    => 'DESC',      
-                  'posts_per_page' => 5,
-              );
-              $result_news = new WP_Query( $args );
-              if ( $result_news-> have_posts() ) :
-                  while ( $result_news->have_posts() ) :
-                  $result_news->the_post();
-            ?>
-                <div class="swiper-slide">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php
-                    if (has_post_thumbnail()) {
-                        the_post_thumbnail('thumbnail', array("class" => "news_img"));
-                    } else {
-                        echo '<img style="width:100%; height:100%" src="' . get_stylesheet_directory_uri() . '/src/img/news/news_1.webp" alt="Default Image">';
-                    }
-                  ?>
-                    </a>
-                </div>
-                <?php
-              endwhile;endif;
-              wp_reset_query();
-              wp_reset_postdata();
-          ?>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-            <div class="autoplay-progress">
-                <svg viewBox="0 0 48 48">
-                </svg>
-                <span></span>
-            </div>
+        <div class="mainvis-img">
+           <img loading="lazy" class="pc-only lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/top-pc.jpg" width="100%" alt="エラベル">
         </div>
         <div class="pc-only key-visual-text-pc">
             「好きなこと」で<br>
@@ -59,7 +20,7 @@
     <img loading="lazy" class="sp-only lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/top-sp.jpg"
         width="100%" alt="エラベル">
     <div class="sp-only key-visual-text-sp">
-        「好ききなこと」で<br>
+        「好きなこと」で<br>
         次の「やりたい」<br>
         を見つける
     </div>
